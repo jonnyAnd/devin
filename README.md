@@ -12,10 +12,10 @@ We will also give you a lexicon to remember Even after 20 years in the industry,
 # 
 
 
-# Setup and getting comfortable {#setup-and-getting-comfortable}
+# Setup and getting comfortable
 
 
-## Get used to the basic tools first {#get-used-to-the-basic-tools-first}
+## Get used to the basic tools first 
 
 Behind all dev roles, back-end, front-end, devops all of it all use the same few basic things, they are also the things behind all the fancy coding tools that you see people use, so lets get cody with those first
 
@@ -23,12 +23,12 @@ Behind all dev roles, back-end, front-end, devops all of it all use the same few
 ### 
 
 
-### A sain command line {#a-sain-command-line}
+### A sain command line
 
 No surprise here! - grown ups cant work in a windows command line, but good news, you don’t have to install a whole system to have this (although you know my thoughts on this ;) ). There is now a way in windows to have a tiny linux system in a box just for this.
 
 
-#### Install WSL {#install-wsl}
+#### Install WSL
 
 
 
@@ -47,8 +47,7 @@ _Command line, terminal, debian, WSL_
 ### 
 
 
-### Install your first linux app {#install-your-first-linux-app}
-
+### Install your first linux app 
 As windows and OSX has an ‘app store’ linux has had this for years! There is a list of _repositories_ (servers) on your linux machine where you can download all sorts of apps. The handy thing is that when the developer of that app updates it, this system will also handle updating things for you.
 
 
@@ -80,7 +79,7 @@ _repositories, apt-get, _
 ### 
 
 
-### Learn the minimum command line things  {#learn-the-minimum-command-line-things}
+### Learn the minimum command line things  
 
 I want to show here that this is NOT scary or difficult at all! And by learning a few small basics, you will be able to understand the fundamentals that underpin all development. 
 
@@ -109,7 +108,7 @@ Simply put, the power of the linux command line is how you can ‘chain’ appli
 ### 
 
 
-### Setup Git {#setup-git}
+### Setup Git
 
 When you work you want to save your code off your local machine, on a server, in little steps. So you can track changes, roll them back, and work on little side projects without messing up your main project - this is called _‘source control’ _There are a few source control systems Git, SVN, perforce… But git is the industry standard and is amazing - if a company doesn't use git… run
 
