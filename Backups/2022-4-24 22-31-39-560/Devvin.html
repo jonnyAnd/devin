@@ -9,12 +9,173 @@
 </head>
 <body>
 <tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play Devvin.</tw-noscript></noscript></tw-story>
-<tw-storydata name="Devvin" startnode="1" creator="Twine" creator-version="2.3.16" ifid="951D8DFE-844D-4D9D-ACA4-71BF4FC611BB" zoom="0.25" format="Harlowe" format-version="3.2.3" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="welcome first page" tags="" position="412,187.5" size="100,100">this is the firt page
+<tw-storydata name="Devvin" startnode="1" creator="Twine" creator-version="2.3.16" ifid="951D8DFE-844D-4D9D-ACA4-71BF4FC611BB" zoom="1" format="Harlowe" format-version="3.2.3" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">/*
+tw-passage {
+    font-family: arial;
+  	font-size: 15px;
+  	color: white;
+  	line-height: 1.6;
+}
+*/
 
-[[next]]
-[[bar]]
-[[foo]]
-[[ this is an example of alt text -&gt; moo]]</tw-passagedata><tw-passagedata pid="2" name="next" tags="" position="262,337.5" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="3" name="bar" tags="" position="412,337.5" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="4" name="foo" tags="" position="562,337.5" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="5" name=" moo" tags="" position="703,163.5" size="100,100">Double-click this passage to edit it.</tw-passagedata></tw-storydata>
+@import url(https://fonts.googleapis.com/css?family=Sofia);
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:600);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400);
+@import url(https://unpkg.com/terminal.css@0.7.2/dist/terminal.min.css);
+
+/* body text */
+tw-passage {
+    font-family: Montserrat;
+  	font-size: 16px;
+  	color: black;
+  	line-height: 1.6;
+  
+}
+
+h1 {
+    font-family: Montserrat;
+  	font-size: 35px;
+  	color: black;
+}
+
+
+
+code {
+    background: #f4f4f4;
+    border: 1px solid #ddd;
+    border-left: 3px solid #666666;
+    color: #666;
+    page-break-inside: avoid;
+    font-family: monospace;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 1.6em;
+    max-width: 100%;
+    overflow: auto;
+    padding: 1em 1.5em;
+    display: block;
+    word-wrap: break-word;
+}
+
+
+/* body style */
+tw-story {
+  background-color: #cccccc;
+}
+
+/* img */
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+/* Link styles */
+tw-link {
+    font-family: Montserrat;
+  	font-size: 16px;
+  	/*color: black;
+  	line-height: 1.6;*/
+}
+
+
+tw-link, .enchantment-link {
+    color: black;
+}
+tw-link:hover, .enchantment-link:hover {
+    color: #666666;
+}
+.visited {
+    color: red;
+}
+.visited:hover {
+    color: pink;
+}
+</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-tag name="code" color="red"></tw-tag><tw-passagedata pid="1" name="Start Dev&#39;in" tags="" position="412,187" size="100,100"># Aim:
+
+
+
+
+To take the shortest path to get to mid level developer cutting all the crap. We will cover tool, setup, best practice and a few basic coding challenges - aimed to make you understand that all coding languages and jobs are basically the same, just with a little finesse in certain areas.
+
+We will also give you a lexicon to remember Even after 20 years in the industry, every new job is a challenge to start. What makes it easy is remembering the key terms so you know what people are talking about, and giving a starting point to start your google research to learn more
+
+&lt;code&gt;$ code block&lt;/code&gt;
+
+
+
+
+
+&lt;img src=&quot;https://twinery.org/homepage/img/logo.svg&quot; width=&quot;256&quot; height=&quot;256&quot;&gt;
+
+
+### Lets get started
+[[ Setup and getting comfortable -&gt; Setup and getting comfortable]]
+
+
+
+[[ A sain command line ]]
+
+[[ Install your first linux app ]]
+
+[[ Learn the minimum command line things ]]
+
+[[  Setup Git ]]</tw-passagedata><tw-passagedata pid="2" name=" Setup and getting comfortable" tags="" position="208,371" size="100,100">## Get used to the basic tools first 
+
+Behind all dev roles, back-end, front-end, devops all of it all use the same few basic things, they are also the things behind all the fancy coding tools that you see people use, so lets get comfortable with those first
+
+
+### </tw-passagedata><tw-passagedata pid="3" name=" test" tags="" position="588,426" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="4" name=" A sain command line " tags="" position="187,251" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="5" name=" Install your first linux app " tags="" position="337,337" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="6" name=" Learn the minimum command line things " tags="" position="487,337" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="7" name="  Setup Git " tags="" position="637,306" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="8" name="Template" tags="" position="860,393" size="100,100"># Title
+
+## intro
+&quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
+
+
+## The explanation
+&quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&quot;
+
+
+## Secnario
+&quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&quot;
+
+## the task
+&quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
+
+&lt;code&gt;$ code block&lt;/code&gt;
+
+commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&quot;
+
+## sum up
+
+
+To take the shortest path to get to mid level developer cutting all the crap. We will cover tool, setup, best practice and a few basic coding challenges - aimed to make you understand that all coding languages and jobs are basically the same, just with a little finesse in certain areas.
+
+We will also give you a lexicon to remember Even after 20 years in the industry, every new job is a challenge to start. What makes it easy is remembering the key terms so you know what people are talking about, and giving a starting point to start your google research to learn more
+
+&lt;code&gt;$ code block&lt;/code&gt;
+
+
+
+
+
+&lt;img src=&quot;https://twinery.org/homepage/img/logo.svg&quot; width=&quot;256&quot; height=&quot;256&quot;&gt;
+
+
+### Lets get started
+[[ Setup and getting comfortable -&gt; Setup and getting comfortable]]
+
+
+
+[[ A sain command line ]]
+
+[[ Install your first linux app ]]
+
+[[ Learn the minimum command line things ]]
+
+[[  Setup Git ]]</tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">"use strict";var _slicedToArray=function(){return function(e,t){if(Array.isArray(e))return e;if(Symbol.iterator in Object(e))return function(e,t){var n=[],r=!0,a=!1,i=void 0;try{for(var o,s=e[Symbol.iterator]();!(r=(o=s.next()).done)&&(n.push(o.value),!t||n.length!==t);r=!0);}catch(e){a=!0,i=e}finally{try{!r&&s.return&&s.return()}finally{if(a)throw i}}return n}(e,t);throw new TypeError("Invalid attempt to destructure non-iterable instance")}}(),_typeof="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e};function _defineProperty(e,t,n){return t in e?Object.defineProperty(e,t,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[t]=n,e}function _toConsumableArray(e){if(Array.isArray(e)){for(var t=0,n=Array(e.length);t<e.length;t++)n[t]=e[t];return n}return Array.from(e)}!function(){
 /**
  * @license almond 0.3.3 Copyright jQuery Foundation and other contributors.
