@@ -1,13 +1,104 @@
 <!DOCTYPE html>
 <html>
 
+<style>
+    .sidebar {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #111;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+    }
 
+    .sidebar a {
+        z-index: 2;
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+
+        font-size: 20px;
+        cursor: pointer;
+        background-color: #111;
+        color: white;
+        padding: 10px 15px;
+        border: none;
+    }
+
+    .sidebar a:hover {
+        color: #f1f1f1;
+    }
+
+    .sidebar .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+
+    .openbtn {
+        z-index: 1;
+        font-size: 36px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 50px;
+        height: 50px;
+        background-color: transparent;
+        color: black;
+        border: none;
+
+    }
+
+    .openbtn:hover {
+        background-color: transparent;
+        cursor: pointer;
+    }
+</style>
 
 
 <body style="margin:0px;padding:0px;overflow:hidden">
-    <iframe src="./Stories/Devvin.html" frameborder="0" style="overflow:hidden;overflow-x:hidden;overflow-y:hidden;height:100%;width:100%;position:absolute;top:0px;left:0px;right:0px;bottom:0px" height="100%" width="100%"></iframe>
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="#">About</a>
+
+    </div>
+
+    <div id="main">
+
+        <button id="openbtn" class="openbtn" onclick="openNav()">☰ </button>
+
+
+        <iframe src="./Stories/Devvin.html" frameborder="0"
+            style="overflow:hidden;overflow-x:hidden;overflow-y:hidden;height:100%;width:100%;position:absolute;top:0px;left:0px;right:0px;bottom:0px"
+            height="100%" width="100%"></iframe>
+
+    </div>
+
+    <script>
+        function openNav() {
+            document.getElementById("openbtn").style.visibility = "hidden";
+            document.getElementById("mySidebar").style.width = "250px";
+            document.getElementById("main").style.marginLeft = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("openbtn").style.visibility = "visible";
+            document.getElementById("mySidebar").style.width = "0";
+            document.getElementById("main").style.marginLeft = "0";
+        }
+    </script>
+
+
 </body>
 
 
 </html>
-

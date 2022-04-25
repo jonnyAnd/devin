@@ -51,16 +51,19 @@
 
     color: black;
     line-height: 1.6;
+
+    display: none;
+    overflow: hidden;
 }
 
 .context {
     font-family: 'Montserrat', sans-serif;
     font-style: italic;
-    font-size: 24px;
-    color: #2e2d2d;
+    font-size: 27px;
+    color: #5d0606;
     line-height: 1.6;
     text-align: center;
-
+    font-weight: 600;
     max-width: 600px;
     margin: auto;
     width: 100%;
@@ -106,6 +109,40 @@ code {
 
 
 
+
+
+
+.collapsible {
+
+    font-family: Montserrat;
+    font-size: 25px;
+    color: black;
+
+
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: 1px solid #ddd;
+    text-align: left;
+    outline: none;
+  }
+  
+  .active, .collapsible:hover {
+
+    color: #cccccc;
+
+
+    background-color: black;
+
+  }
+  
+
+
+
+
+/*--- review below */
 
 
 
